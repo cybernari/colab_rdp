@@ -18,6 +18,8 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg --install google-chrome-stable_current_amd64.deb
 sudo apt install --assume-yes --fix-broken
 sudo apt install nautilus nano -y 
+sudo apt-get update -y
+sudo apt-get install -y xfce4-terminal
 sudo adduser cybernari chrome-remote-desktop
 } &> /dev/null &&
 printf "\nSetup Complete " >&2 ||
