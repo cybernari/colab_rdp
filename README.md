@@ -13,4 +13,6 @@ CLI Commands for Installation.
 !chmod +x colab_rdp.sh\
 !./colab_rdp.sh
 ```
-
+In case screen get locked credentials or any software installation use the below credentails 
+username: cybernari
+password: doug
