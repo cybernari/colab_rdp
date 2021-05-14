@@ -32,6 +32,3 @@ then
 else
     printf "\n\nError Occured " >&2
 fi
-sudo apt-get update -y
-sudo apt-get install -y xfce4-terminal
-sudo apt-get remove gnome-terminal
